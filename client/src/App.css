@@ -1,0 +1,16 @@
+@import 'font-awesome/css/font-awesome.min.css';
+@import '@fontsource/staatliches';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 12px; 
+}
+body {
+  background-color: #f9fafb;
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+}
