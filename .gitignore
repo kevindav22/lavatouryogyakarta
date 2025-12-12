@@ -1,0 +1,8 @@
+# Jangan push file/folder sensitif
+
+/client/node_modules
+/server/node_modules
+/server/.env
+/database/
+/server/uploads/
+/client/src/services/
